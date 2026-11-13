@@ -1,0 +1,25 @@
+HyperLite
+Copyright (C) 2026 HyperLite contributors
+Derived from AritxOnly/HyperModifier, Copyright (C) AritxOnly.
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See LICENSE for the full text.
+
+上游项目
+    HyperModifier  https://github.com/AritxOnly/HyperModifier  (GPL-3.0)
+
+本仓库的改动
+    仅保留三个功能并重新实现为独立模块：
+      1. 状态栏 / 导航栏半透明遮罩开关（BarTransitions 半透明态）
+      2. 状态栏电池改造（实心框 / 图标尺寸 / 控制中心百分比）
+      3. HyperMusicCover 扩展协同（时钟高度 / 通知下沉 / AOD 让位）
+    新增：独立设置页、只读设置 ContentProvider、隐藏桌面图标与暗码恢复、
+          「重启系统界面」按钮。
+    不再包含的：通知/控制中心圆角与玻璃参数、全局模糊、媒体卡片高度、
+    动态岛、手势提示线、各 App 悬浮导航栏等上游功能。
+
+第三方
+    HyperMusicCover  https://github.com/zyl6932/HyperMusicCover  (AGPL-3.0)
+    本模块只通过反射调用其运行时接口（com.os4.musiccover.*），未复制其代码。

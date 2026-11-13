@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyperLite</string>
+    <string name="module_description">从 HyperModifier 提取的轻量模块：旧版应用系统栏全透明、状态栏电池改造、HyperMusicCover 扩展。</string>
+
+    <string-array name="xposed_scope">
+        <item>com.android.systemui</item>
+        <item>android</item>
+        <item>com.miui.systemui.plugin</item>
+    </string-array>
+</resources>
